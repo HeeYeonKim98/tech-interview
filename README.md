@@ -147,6 +147,7 @@ UDP : 전송 계층의 비연결형 프로토콜이며 흐름제어, 오류제�
 </br>
 
 > CORS (cross-origin-resource-sharing)
+
 도메인 또는 포트가 다른 서버의 지원을 요청하는 매커니즘을 말한다.
 
 CORS가 발생하면 SOP(same-origin-policy) 브라우저의 동일 출처 정책으로 인해 외부 서버에 요청한 데이터를 브라우저에서 보안 목적으로 차단한다. 허가 방법으로 응답 헤더에 ACAO(acess-control-allow-origin)을 추가하여 특정 호스트와 포트를 허용시킬 수 있다.
@@ -154,6 +155,7 @@ CORS가 발생하면 SOP(same-origin-policy) 브라우저의 동일 출처 정�
 </br>
 
 > SOP (same-origin-policy)
+
 서버에서 불러온 문서나 스크립트가 다른 출처에서 가져온 리소스와 상호작용하는 것을 제한하는 보안 방식이다.
 이것은 잠재적인 악성 문서를 격리하여 공격 경로를 줄이는 데 도움이 된다.
 
